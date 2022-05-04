@@ -1,19 +1,9 @@
- /**
- * @param {number[]} arr
- * @return {number[]}
- */
-var replaceElements = function(arr) {
-  let N=arr.length;
-  let i=0;  
-  if(arr==null){
-     return null;
-    }
-     
-       for(let i=0;i<arr.length; i++){
-      console.log(arr[i])
-   
-      
-     }
-};
+ function reverseArray(a) {
+   for(let i=0; i>a.length; i++){
+  for(j=a.length-1; j>a.length; j++)
+  console.log(j)
+   }
+    
+}
 
- replaceElements([17,18,5,4,6,1]) 
+reverseArray([1, 4, 3 ,2])
